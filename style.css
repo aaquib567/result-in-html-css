@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana,Tahoma;
+	color: aquamarine;
+}
+.container{
+	 background-color: rgb(8, 68, 120);
+ width: 80%;
+	margin-left: 30px;
+	border-bottom: 20px solid black;
+height: 600px;
+}
+form{
+	margin-left: 90px;
+}
+input, label{
+	width: 100%;
+	
+	color: aliceblue;
+}
+input{
+	width: 40%;
+	padding: 12px;
+	margin: 10px;
+	
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+h2{
+	font-size: 20px;
+	text-align: center;
+}
+input[type="submit"]{
+	background-color: rgba(237, 219, 27, 0.9);
+	width: 200px;
+}
+
+table{
+	margin: 40px;
+	width: 90%;
+	border-collapse: collapse;
+	border: 2px solid black;
+	padding:20px;
+	
+
+}
+th{
+	border: 2px solid brown;
+	color: black;
+	padding: 8px;
+}
+tr{
+	border: 2px solid black;color: black;
+}
+td{
+	border: 2px solid black;color: black;
+	text-align: center;
+	padding: 10px;
+}
+
+@media (max-width: 768px){
+	
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-right: 50px;
+}
+h1,h2{
+	font-size: 12px;
+	align-items: center;
+	text-align: center
+}
+input{
+	width: auto;
+	/* margin-right: 100%; */
+	/* margin-right: 40px; */
+	align-items: center;
+	justify-content: center;
+	color: black;
+}
+form{
+	margin-top: 30px;
+	margin-left:0;
+}
+}
